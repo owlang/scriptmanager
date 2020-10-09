@@ -5,6 +5,6 @@ jdk:
 
 script:
   - ./gradlew build
-
+  - java -jar build/libs/ScriptManager.jar -h
 
 
